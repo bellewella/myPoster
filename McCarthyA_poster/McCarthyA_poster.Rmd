@@ -1,5 +1,5 @@
 ---
-title: Generate Reproducible & Live HTML and PDF Conference Posters Using RMarkdown
+title: My Poster
 author:
   - name: Annabelle C. McCarthy
     affil: 1
@@ -28,14 +28,26 @@ bibliography: packages.bib
 ---
 
 <style>
+.poster_title {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
 .logo_left {
-  width: 12%;
+  width: 30%;
+  display: flex;
 }
 
 .logo_right {
-  width: 5%;
-  margin-right: 3%;
+  width:30%;
+  display: flex;
 }
+
+.title_container {
+overflow: hidden;
+}
+
 </style>
 
 ```{r setup, include=FALSE}
