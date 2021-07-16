@@ -19,8 +19,8 @@ accent_colour: "#db7100"
 column_numbers: 3
 titlebox_bordercol: "#db7100"
 titlebox_borderwidth: "1cm"
-logoright_name: "Logos/KBS-LTERLogo-Color-white-bkgd.png"  
-logoleft_name: "Logos/NSF-logo.png"
+logoright_name: "Logos/NSF-logo.png"  
+logoleft_name: "Logos/KBS-LTERLogo-Color-white-bkgd.png"
 output: 
   posterdown::posterdown_html:
     self_contained: false
@@ -28,8 +28,13 @@ bibliography: packages.bib
 ---
 
 <style>
-#title-img-left {
-  width: 50%;
+.logo_left {
+  width: 12%;
+}
+
+.logo_right {
+  width: 5%;
+  margin-right: 3%;
 }
 </style>
 
